@@ -12,33 +12,33 @@ Adds eight new widgets you can use in your sidebar.
 
 Adds eight new widgets you can use in your sidebar.
 
-** Author Widget **
+**Author Widget**
 
 Add an image and introductory paragraph to your sidebar.
 
-** Dribbble Widget **
+**Dribbble Widget**
 
 Show your latest shots in the sidebar.
 
-** Facebook **
+**Facebook**
 
 Add a Facebook box to your sidebar.
 
-** Featured Posts Widget **
+**Featured Posts Widget**
 
 Display your favourite posts in the sidebar.
 
-** Social Widget **
+**Social Widget**
 
 Link to your social media profiles with these beautiful icons.
 
-** Twitter Widget **
+**Twitter Widget**
 
 Display your latest tweets in the sidebar.
 
-** Video Widget **
+**Video Widget**
 
-Embed a video (YouTube, html5, etc) in your sidebar.
+Embed a video (YouTube, HTML5, etc) in your sidebar.
 
 == Installation ==
 
