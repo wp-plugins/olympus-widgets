@@ -123,7 +123,7 @@ function customizer_library_demo_options() {
 		'option_type' => 'option',
 		'label'   => __( 'Email Address', 'olympus-widgets' ),
 		'section' => $section,
-		'type'    => 'url',
+		'type'    => 'text',
 		'transport' => 'postMessage',
 	);
 

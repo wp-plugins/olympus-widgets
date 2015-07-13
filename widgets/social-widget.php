@@ -127,12 +127,18 @@ class Olympus_Social_Widget extends WP_Widget {
 			$option = 'olympus_' . $profile . '_url';
 			$option_value = get_option( $option );
 
-			if ( $option_value ) {
+			if ( $option_value && $option !== 'olympus_email_url' ) {
 				echo '<li>
-                      <a class="' . $option . '" href="' . esc_url( $option_value ) . '">
+                      <a class="' . esc_attr( $option ) . '" href="' . esc_url( $option_value ) . '">
                            
                       </a>
                   </li>';
+			} elseif ( $option === 'olympus_email_url' ) {
+				echo '<li>
+				  <a class="' . esc_attr( $option ) . '" href="mailto:' . sanitize_email( $option_value ) . '">
+
+				  </a>
+				</li>';	
 			}
 		}
 

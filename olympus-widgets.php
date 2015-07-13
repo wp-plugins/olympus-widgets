@@ -5,7 +5,7 @@
  * Description: Adds eight new widgets you can use in your sidebar.
  * Author: Olympus Themes
  * Author URI: http://olympusthemes.com
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: olympus-widgets
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
@@ -35,7 +35,7 @@ class Olympus_Widgets {
 		}
 
 		add_action( 'init', array( $this, 'init' ) );
-
+		
 		$this->widget_include( 'olympus_author_widget_disable' , 'author-widget' );
 		$this->widget_include( 'olympus_social_widget_disable', 'social-widget' );
 		$this->widget_include( 'olympus_facebook_widget_disable', 'facebook-widget' );
@@ -49,7 +49,7 @@ class Olympus_Widgets {
 		require_once( OLYMPUS_WIDGETS_PLUGIN_DIR . '/inc/customizer/customizer-settings.php' );
 
 	}
-
+	
 	/**
 	 * Load plugin CSS & Languages.
 	 */
@@ -61,8 +61,8 @@ class Olympus_Widgets {
 		
 		load_plugin_textdomain( 'olympus-widgets', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
 
-	}
-
+	}	
+	
 	/**
 	 * Check if widget is disabled in plugin settings. If not disabled, load the widget class
 	 *

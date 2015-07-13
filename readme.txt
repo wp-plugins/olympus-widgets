@@ -47,7 +47,11 @@ Embed a video (YouTube, HTML5, etc) in your sidebar.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Added: uninstall.php to clean database on plugin deletion.
+* Fixed: email icon outputting email address as URL
+
+= 1.0.0 =
 * Initial release
 
 
