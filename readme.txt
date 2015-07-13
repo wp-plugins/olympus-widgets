@@ -40,6 +40,12 @@ Display your latest tweets in the sidebar.
 
 Embed a video (YouTube, HTML5, etc) in your sidebar.
 
+= Get involved =
+
+Developers can contribute to the source code on the [Olympus Widgets GitHub Repository](https://github.com/DannyCooper/olympus-widgets).
+
+Translators can contribute new languages to Olympus Widgets through [Transifex](https://www.transifex.com/projects/p/olympus-widgets/).
+
 == Installation ==
 
 1. Upload `olympus-widgets.php` to the `/wp-content/plugins/` directory
